@@ -1,0 +1,14 @@
+@font-face {
+    font-family: titlefont;
+    src: url(titlefont.otf);
+}
+
+@font-face {
+    font-family: normalfont;
+    src: url(NATS-Regular.ttf);
+}
+
+@font-face {
+    font-family: cozynormalfont;
+    src: url(Jaden.ttf);
+}
