@@ -16,13 +16,15 @@
 }
 
 @media only screen and (max-width: 1000px) {
+
     #titlediv {
-        top: 20%;
+        position: absolute;
+        top: 100%;
         left: 50%;
         height: 200px;
         width: 600px;
         margin-right: -50%;
-        transform: translate(-50%, -50%)
+        transform: translate(-50%, -50%);
     }
 
     #title {
@@ -73,9 +75,10 @@
     }
 }
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 700px){ /* phone mode */
+
     #titlediv {
-        top: 20%;
+        top: 15%;
         left: 50%;
         height: 190px;
         width: 350px;
@@ -160,4 +163,34 @@
         margin-right: -50%;
         transform: translate(-50%);
     }
+}
+
+
+@media only screen and (max-height: 1220px) {
+
+    #titlediv {
+        top: 15%;
+    }
+}
+
+@media only screen and (max-height: 950px) {
+
+    #titlediv {
+        top: 20%;
+    }
+
+    #homeinfos {
+        top: 70%;
+    }
+}
+
+@media only screen and (max-height: 700px) {
+
+    #titlediv {
+        top: 23%;
+    }
+
+    #homeinfos {
+        top: 85%;
+    } 
 }
