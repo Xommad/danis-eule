@@ -1,0 +1,163 @@
+@media only screen and (min-width: 1000px) {
+    
+    #titlediv {
+        top: 27%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+    }
+
+    #homeinfos {
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #titlediv {
+        top: 20%;
+        left: 50%;
+        height: 200px;
+        width: 600px;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+    }
+
+    #title {
+        top: 10%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%);
+    }
+
+    #undertitlemotto {
+        top: 13%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%);
+    }
+
+    #companysfullname {
+        top: 30%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%);
+    }
+
+    #navigationbardiv {
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%);
+    }
+
+    #navigationbardiv:hover {
+        top: 45%;
+    }
+
+    #navbarlist {
+        top: 90%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%);
+    }
+
+    #homeinfos {
+        top: 47%;
+        left: 50%;
+        margin-right: -50%;
+        width: 600px;
+        transform: translate(-50%, -50%)
+    }
+}
+
+@media only screen and (max-width: 700px){
+    #titlediv {
+        top: 20%;
+        left: 50%;
+        height: 190px;
+        width: 350px;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        box-shadow:  0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    #title {
+        top: 10%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%);
+    }
+
+    #undertitlemotto {
+        top: 14%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%);
+    }
+
+    #companysfullname {
+        top: 33%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%);
+    }
+
+    #navigationbardiv {
+        top: 55%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%);
+    }
+
+    #navigationbardiv:hover {
+        top: 50%;
+    }
+
+    #navbarlist {
+        top: 90%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%);
+    }
+
+    #homeinfos {
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        width: 350px;
+        height: 450px;
+        transform: translate(-50%, -50%);
+        box-shadow:  0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    #openschedules {
+        top: 45%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%);
+        width: 300px;
+    }
+
+    #openschedulestitle {
+        font-style: italic;
+        font-size: 25px;
+    }
+
+    #locationquestion {
+        position: absolute;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%);
+        font-size: 26px;
+    }
+
+    #locationtext {
+        position: absolute;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%);
+    }
+}
