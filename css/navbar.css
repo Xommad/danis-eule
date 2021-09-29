@@ -1,0 +1,98 @@
+#navigationbardiv {
+    background-color: #411423;
+    padding: 15px;
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    left: 55%;
+    top: 19%;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    transition: ease-in-out .2s;
+}
+
+#navigationbardiv:hover {
+    position: absolute;
+    top: 25%;
+}
+
+#navigationbardiv:active {
+    position: absolute;
+    top: 19%;
+}
+
+#navigationtext {
+    color: #eae1e5;
+    font-family: cozynormalfont;
+    text-align: center;
+}
+
+#navbarlist {
+    background-color: #411423;
+    width: 300px;
+    height: 200px;
+    padding: 15px;
+    position: absolute;
+    left: 55%;
+    top: 120%;
+    border-radius: 15px;
+    display: none;
+    animation: navBarDropDown .5s forwards;
+}
+
+#navbarhomebutton {
+    background-color: #c2839c;
+    color: white;
+    font-family: cozynormalfont;
+    position: absolute;
+    border: 10x black solid;
+    width: 300px;
+    height: 50px;
+    border-radius: 15px;
+    cursor: pointer;
+    text-align: center;
+    transition: ease-in-out .2s;
+}
+
+#navbarhomebutton:hover {
+    box-shadow: white 5px 5px;
+}
+
+#navbarmenubutton {
+    background-color: #c2839c;
+    color: white;
+    font-family: cozynormalfont;
+    position: absolute;
+    top: 38%;
+    border: 10x black solid;
+    width: 300px;
+    height: 50px;
+    border-radius: 15px;
+    cursor: pointer;
+    text-align: center;
+    transition: ease-in-out .2s;
+}
+
+#navbarmenubutton:hover {
+    box-shadow: white 5px 5px;
+}
+
+#navbarcontactbutton {
+    background-color: #c2839c;
+    color: white;
+    font-family: cozynormalfont;
+    position: absolute;
+    top: 70%;
+    border: 10x black solid;
+    width: 300px;
+    height: 50px;
+    border-radius: 15px;
+    cursor: pointer;
+    text-align: center;
+    transition: ease-in-out .2s;
+}
+
+#navbarcontactbutton:hover {
+    box-shadow: white 5px 5px;
+}

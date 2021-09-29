@@ -36,7 +36,7 @@ div::-webkit-scrollbar {
     top: 26%;
     left: 4%;
     font-size: 20px;
-    letter-spacing: 8.5px;
+    letter-spacing: 4.8px;
     font-family: normalfont;
 }
 
@@ -47,27 +47,48 @@ div::-webkit-scrollbar {
     font-family: cozynormalfont;
 }
 
-#navigationbardiv {
-    background-color: #411423;
+#homeinfos {
+    background-color: #c2839c;
+    color: #411423;
+    font-family: cozynormalfont;
+    width: 800px;
+    height: 400px;
     padding: 15px;
-    width: 300px;
-    height: 50px;
-    position: absolute;
-    left: 55%;
-    top: 19%;
     border-radius: 15px;
-    border: none;
-    cursor: pointer;
+    position: absolute;
+    left: 20%;
+    top: 30%;
+}
+
+#locationquestion {
+    position: absolute;
+    top: 3%;
+    left: 4%;
+}
+
+#locationtext {
+    color: #411423;
+    padding: 15px;
+    position: absolute;
+    top: 20%;
+    left: 4%;
     transition: ease-in-out .2s;
 }
 
-#navigationbardiv:hover {
-    position: absolute;
-    top: 25%;
+#locationtext:hover {
+    background-color: #411423;
+    color: #c2839c;
+    padding: 15px;
+    border-radius: 15px;
 }
 
-#navigationtext {
-    color: #eae1e5;
-    font-family: cozynormalfont;
-    text-align: center;
+#openschedules {
+    width: auto;
+    height: 200px;
+    padding: 15px;
+    border: 2px solid #411423;
+    border-radius: 15px;
+    position: absolute;
+    left: 4%;
+    top: 40%;
 }

@@ -7,10 +7,32 @@
         <link rel="stylesheet" href="css/index.css">
         <link rel="stylesheet" href="css/font.css">
         <link rel="stylesheet" href="css/buttons.css">
+        <link rel="stylesheet" href="css/navbar.css">
+        <link rel="stylesheet" href="css/animations.css">
         <script  src="js/index.js"></script>
         <title>SCP database</title>
     </head>
     <body>
+        <div id="homeinfos">
+            <h1 id="locationquestion">
+                Wo finden sie uns?
+            </h1>
+            <a href="https://goo.gl/maps/ARQi7LvvswVeLYKK7" id="locationtext">
+                Filderhauptstr. 155<br>
+                70599 Stuttgart
+            </a>
+            <div id="openschedules">
+                <h1 id="openschedulestitle">
+                    oeffnungszeiten
+                </h1>
+                <p id="openschedulestext">
+                    Montag bis Freitag:<br>
+                    - 07:00 - 20:00<br><br>
+                    Samstag:<br>
+                    - 07:00 - 19:00
+                </p>
+            </div>
+        </div>
         <div id="titlediv">
             <a href="index.html" id="title">
                 Danis eule
@@ -21,11 +43,28 @@
             <p id="companysfullname">
                 Danis Eule GmbH
             </p>
-            <form id="navigationbardiv">
+            <form onclick="showNavBar()" id="navigationbardiv">
                 <p id="navigationtext">
                     Navigation ▼
                 </p>
             </form>
+            <div id="navbarlist">
+                <div onclick="openHome()" id="navbarhomebutton">
+                    <p id="navbarhomebuttontext">
+                        Home
+                    </p>
+                </div>
+                <div onclick="openMenu()" id="navbarmenubutton">
+                    <p id="navbarmenubuttontext">
+                        Menu
+                    </p>
+                </div>
+                <div onclick="openContact()" id="navbarcontactbutton">
+                    <p id="navbarcontactbuttontext">
+                        Contact
+                    </p>
+                </div>
+            </div>
         </div>
         
     </body>
