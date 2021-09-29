@@ -168,40 +168,40 @@
 
 @media only screen and (max-width: 400px) {
     #titlediv {
-        width: 270px;
+        width: 280px;
     }
 
     #homeinfos {
-        width: 270px;
+        width: 280px;
     }
 
     #openschedules {
-        width: 230px;
+        width: 240px;
     }
 
     #navbarlist {
-        width: 260px;
+        width: 270px;
     }
 
     #navbarhomebutton {
         left: 50%;
         margin-right: -50%;
         transform: translate(-50%);
-        width: 250px;
+        width: 260px;
     }
     
     #navbarmenubutton {
         left: 50%;
         margin-right: -50%;
         transform: translate(-50%);
-        width: 250px;
+        width: 260px;
     }
 
     #navbarcontactbutton {
         left: 50%;
         margin-right: -50%;
         transform: translate(-50%);
-        width: 250px;
+        width: 260px;
     }
 }
 
