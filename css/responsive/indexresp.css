@@ -166,6 +166,44 @@
     }
 }
 
+@media only screen and (max-width: 400px) {
+    #titlediv {
+        width: 270px;
+    }
+
+    #homeinfos {
+        width: 270px;
+    }
+
+    #openschedules {
+        width: 230px;
+    }
+
+    #navbarlist {
+        width: 260px;
+    }
+
+    #navbarhomebutton {
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%);
+        width: 250px;
+    }
+    
+    #navbarmenubutton {
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%);
+        width: 250px;
+    }
+
+    #navbarcontactbutton {
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%);
+        width: 250px;
+    }
+}
 
 @media only screen and (max-height: 1220px) {
 
