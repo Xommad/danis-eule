@@ -19,7 +19,7 @@
 
     #titlediv {
         position: absolute;
-        top: 100%;
+        top: 15%;
         left: 50%;
         height: 200px;
         width: 600px;
@@ -81,7 +81,7 @@
         top: 15%;
         left: 50%;
         height: 190px;
-        width: 350px;
+        width: 300px;
         margin-right: -50%;
         transform: translate(-50%, -50%);
         box-shadow:  0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -112,6 +112,7 @@
         top: 55%;
         left: 50%;
         margin-right: -50%;
+        width: 250px;
         transform: translate(-50%);
     }
 
@@ -130,7 +131,7 @@
         top: 50%;
         left: 50%;
         margin-right: -50%;
-        width: 350px;
+        width: 300px;
         height: 450px;
         transform: translate(-50%, -50%);
         box-shadow:  0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -140,13 +141,13 @@
         top: 45%;
         left: 50%;
         margin-right: -50%;
+        width: 250px;
         transform: translate(-50%);
-        width: 300px;
     }
 
     #openschedulestitle {
         font-style: italic;
-        font-size: 25px;
+        font-size: 20px;
     }
 
     #locationquestion {
@@ -154,7 +155,7 @@
         left: 50%;
         margin-right: -50%;
         transform: translate(-50%);
-        font-size: 26px;
+        font-size: 23px;
     }
 
     #locationtext {
